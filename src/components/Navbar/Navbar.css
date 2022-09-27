@@ -1,0 +1,50 @@
+.logo {
+  font-size: 32px;
+  font-family: "Dm sans";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  color: #5bb5a2;
+  padding-left: 140px;
+}
+
+.nav-item {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.login {
+  color: #5bb5a2;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #5bb5a2;
+  border-radius: 6px;
+  width: 135px;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  padding: 12px 16px;
+}
+
+.button:hover {
+  background-color: #e8f2ee;
+  color: #5bb5a2;
+  cursor: pointer;
+  font-weight: 500;
+}
+.navbar-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-register {
+  padding-right: 140px;
+  gap: 10px;
+}

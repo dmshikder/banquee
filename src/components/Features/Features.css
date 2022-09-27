@@ -1,0 +1,87 @@
+.features {
+  background-color: #ffffff;
+  position: relative;
+  height: 800px;
+}
+
+.point {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.mobile {
+  width: 380px;
+  height: 800px;
+  border: 10px solid #1a191e;
+  border-radius: 50px;
+}
+
+.mobile-card {
+  height: 186px;
+  width: 310px;
+  background: linear-gradient(108.63deg, #485563 -0.82%, #29323c 104.26%);
+  border-radius: 15px;
+  margin: auto;
+}
+
+.mobile-card-number {
+  color: #fafafa;
+  /* padding: 40px; */
+  margin-left: 10px;
+}
+
+.mobile-card-title {
+  color: #ffffff;
+  font-size: 19.84px;
+  font-weight: 700;
+  line-height: 100%;
+  margin-bottom: 50.68px;
+  padding-top: 24.8px;
+  padding-left: 26.35px;
+}
+
+.mobile-card-wifi {
+  margin-left: 28.83px;
+  margin-top: -20px;
+}
+
+.mobile-send-receive-money {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.mobile-transactions {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-evenly;
+}
+
+.transaction {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+
+.view {
+  font-size: 16;
+  letter-spacing: -0.03em;
+  color: #5bb5a2;
+}
+
+.mobile-item {
+  height: 65px;
+  width: 310px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px 12px 12px;
+  gap: 16px;
+}
