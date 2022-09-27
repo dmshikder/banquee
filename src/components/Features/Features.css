@@ -2,6 +2,15 @@
   background-color: #ffffff;
   position: relative;
   height: 800px;
+  display: flex;
+}
+
+.all-points {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
 }
 
 .point {
@@ -41,11 +50,45 @@
   margin-left: 35px;
 }
 
+.feature-point {
+  margin-top: 342px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 170px;
+  margin-left: 240px;
+}
+
+.transaction-text {
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+
+.transaction-title {
+  font-size: 64px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 110%;
+}
+
+.transaction-details {
+  font-size: 17.9551px;
+  line-height: 180%;
+  font-weight: 500;
+  width: 538.65px;
+  height: 96px;
+  margin-top: 16px;
+}
+
 .mobile {
   width: 380px;
   height: 800px;
   border: 10px solid #1a191e;
   border-radius: 50px;
+  margin-top: 160px;
 }
 
 .mobile-card {
@@ -116,7 +159,6 @@
   align-items: center;
   padding: 12px 16px 12px 12px;
   margin-bottom: 10px;
-
   gap: 16px;
 }
 
@@ -134,4 +176,62 @@
 .mobile-item-about {
   font-size: 12px;
   font-weight: 500;
+}
+
+/* features part 2 */
+
+.features-part-2 {
+  margin-top: 160px;
+}
+
+.features-part-2-mobile-frame-196 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+
+.features-part-2-mobile-frame-196-full {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px 30px;
+  gap: 16px;
+  margin-top: 24px;
+}
+.all-cards {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 140%;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+
+.mobile-card-part-2-gold {
+  height: 186px;
+  width: 310px;
+  background: linear-gradient(110.04deg, #e3c79e 0%, #d6ae7b 99.05%);
+  border-radius: 15px;
+  margin: auto;
+}
+
+.mobile-card-part-2-green {
+  height: 186px;
+  width: 310px;
+  background: linear-gradient(109.06deg, #5bb5a2 -10.89%, #53a291 111.82%);
+  border-radius: 15px;
+  margin: auto;
+  /* margin-left: 35px; */
+  /* margin-right: 35px; */
+  margin-top: -116px;
+  position: relative;
+}
+
+.mobile-card-part-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
 }
