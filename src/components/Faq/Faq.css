@@ -1,0 +1,74 @@
+.faq {
+  margin-top: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0px;
+  height: 500px;
+}
+
+.help {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+  width: 600px;
+  height: 324px;
+}
+
+.help-title {
+  font-size: 64px;
+  line-height: 110%;
+  letter-spacing: -0.03em;
+  color: #1a191e;
+}
+.help-text {
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: -0.03em;
+}
+
+.help-text-details {
+  font-size: 14px;
+  line-height: 160%;
+  color: rgba(26, 25, 30, 0.5);
+}
+
+.help-text-all {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+}
+
+.support {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+
+.support-text {
+  font-size: 18px;
+  color: #5bb5a2;
+  letter-spacing: -0.03em;
+  line-height: 100%;
+}
+
+/* faq  */
+
+.border-bottom {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.faq-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.collapse-content {
+  color: rgba(26, 25, 30, 0.5);
+}
