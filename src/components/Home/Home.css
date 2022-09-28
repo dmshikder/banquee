@@ -3,3 +3,9 @@
   height: 6841px;
   width: 1680px;
 }
+
+.line {
+  height: 1px;
+  margin-top: 280px;
+  background-color: #e8e8e8;
+}

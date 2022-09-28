@@ -1,0 +1,138 @@
+.cards {
+  margin-top: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 96px;
+}
+
+.accounts,
+.plan-basic {
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+
+.title {
+  font-size: 64px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: -0.03em;
+}
+
+.card-section-details {
+  font-size: 20px;
+  line-height: 180%;
+  text-align: center;
+}
+
+.card-plan {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  gap: 64px;
+  height: 448px;
+  width: 1200px;
+}
+
+.single-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+}
+
+.popular-plan {
+  font-size: 12px;
+  color: #5bb5a2;
+  line-height: 180%;
+  background-color: #e8f2ee;
+  height: 22px;
+  width: 56px;
+  border-radius: 4px;
+}
+
+.card-plan1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+
+.card-price {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 100%;
+  /* text-align: center; */
+  letter-spacing: -0.03em;
+}
+
+.card-month {
+  font-size: 16px;
+  line-height: 160%;
+
+  color: rgba(26, 25, 30, 0.5);
+}
+
+.card-price-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0;
+  gap: 8px;
+}
+
+.card-details {
+  font-size: 16px;
+  line-height: 160%;
+  color: rgba(26, 25, 30, 0.5);
+  width: 220px;
+  height: 52px;
+}
+
+.blue-card {
+  height: 213px;
+  width: 355px;
+  background: linear-gradient(109.06deg, #5bb5a2 -10.89%, #53a291 111.82%);
+  border-radius: 15px;
+  margin: auto;
+}
+
+.black-card {
+  height: 213px;
+  width: 355px;
+  background: linear-gradient(108.63deg, #485563 -0.82%, #29323c 104.26%);
+  border-radius: 15px;
+  margin: auto;
+}
+
+.gold-card {
+  height: 213px;
+  width: 355px;
+  background: linear-gradient(110.04deg, #e3c79e 0%, #d6ae7b 99.05%);
+  border-radius: 15px;
+  margin: auto;
+}
+
+.card-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+
+  width: 357.33px;
+  height: 39px;
+  background-color: #5bb5a2;
+  border-radius: 6px;
+  margin-top: 24px;
+  color: #ffffff;
+  font-size: 15px;
+}

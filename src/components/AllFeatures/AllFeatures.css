@@ -1,5 +1,5 @@
 .all-features {
-  margin-top: 321px;
+  margin-top: 160px;
   height: 1496px;
   width: 1680px;
 
@@ -216,7 +216,7 @@
   gap: 32px;
 
   width: 1680px;
-  height: 950px;
+  /* height: 950px; */
   z-index: 1;
   position: absolute;
   padding-top: 60px;
