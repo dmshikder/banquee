@@ -1,8 +1,11 @@
 .features {
-  background-color: #ffffff;
-  position: relative;
-  height: 800px;
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 0px;
+  gap: 170px;
+  /* height: 800px; */
 }
 
 .all-points {
@@ -28,7 +31,6 @@
   padding: 0px;
   gap: 0.2px;
 
-  /* position: absolute; */
   width: 310px;
   height: 34px;
   margin-top: 46px;
@@ -51,13 +53,14 @@
 }
 
 .feature-point {
-  margin-top: 342px;
+  /* margin-top: 342px; */
 
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-right: 170px;
-  margin-left: 240px;
+  align-items: flex-start;
+  /* margin-right: 170px; */
+  margin-left: 80px;
+  width: 538px;
 }
 
 .transaction-text {
@@ -72,6 +75,7 @@
   font-weight: 500;
   letter-spacing: -0.03em;
   line-height: 110%;
+  text-align: start;
 }
 
 .transaction-details {
@@ -81,6 +85,7 @@
   width: 538.65px;
   height: 96px;
   margin-top: 16px;
+  text-align: start;
 }
 
 .mobile {
@@ -90,34 +95,14 @@
   border-radius: 50px;
   margin-top: 160px;
 }
-
-.mobile-card {
-  height: 186px;
-  width: 310px;
-  background: linear-gradient(108.63deg, #485563 -0.82%, #29323c 104.26%);
-  border-radius: 15px;
-  margin: auto;
-}
-
-.mobile-card-number {
-  color: #fafafa;
-  /* padding: 40px; */
-  margin-left: 10px;
-}
-
-.mobile-card-title {
-  color: #ffffff;
-  font-size: 19.84px;
-  font-weight: 700;
-  line-height: 100%;
-  margin-bottom: 50.68px;
-  padding-top: 24.8px;
-  padding-left: 26.35px;
-}
-
-.mobile-card-wifi {
-  margin-left: 28.83px;
-  margin-top: -20px;
+.mobile-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px;
+  gap: 71px;
+  margin-top: 43px;
 }
 
 .mobile-send-receive-money {
@@ -209,23 +194,8 @@
   margin-bottom: 16px;
 }
 
-.mobile-card-part-2-gold {
-  height: 186px;
-  width: 310px;
-  background: linear-gradient(110.04deg, #e3c79e 0%, #d6ae7b 99.05%);
-  border-radius: 15px;
-  margin: auto;
-}
-
-.mobile-card-part-2-green {
-  height: 186px;
-  width: 310px;
-  background: linear-gradient(109.06deg, #5bb5a2 -10.89%, #53a291 111.82%);
-  border-radius: 15px;
-  margin: auto;
-  /* margin-left: 35px; */
-  /* margin-right: 35px; */
-  margin-top: -116px;
+.blue-card-part-2 {
+  margin-top: -140px;
   position: relative;
 }
 

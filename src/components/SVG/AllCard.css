@@ -1,0 +1,87 @@
+.card-title-up {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  gap: 174px;
+}
+
+.mobile-card-title {
+  color: #ffffff;
+  font-size: 19.84px;
+  font-weight: 700;
+  line-height: 100%;
+  margin-bottom: 50.68px;
+  padding-top: 24.8px;
+}
+
+.wifi {
+  padding-top: 24.8px;
+}
+
+.mobile-card-number {
+  color: #fafafa;
+}
+
+.card-bottom-gray {
+  color: #ffffff;
+  opacity: 0.8;
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.card-holder-name {
+  color: #ffffff;
+  opacity: 0.8;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.card-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 95.48px;
+}
+
+.card-bottom-part1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 29.76px;
+  padding-top: 24px;
+}
+
+.black-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+  height: 186px;
+  background: linear-gradient(108.63deg, #485563 -0.82%, #29323c 104.26%);
+  border-radius: 15px;
+  margin-left: 6px;
+}
+
+.blue-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+  height: 186px;
+  background: linear-gradient(109.06deg, #5bb5a2 -10.89%, #53a291 111.82%);
+  border-radius: 15px;
+  margin-left: 6px;
+}
+
+.gold-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+  height: 186px;
+  background: linear-gradient(110.04deg, #e3c79e 0%, #d6ae7b 99.05%);
+  border-radius: 15px;
+  margin-left: 6px;
+}

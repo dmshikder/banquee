@@ -1,5 +1,5 @@
 .cards {
-  margin-top: 1500px;
+  margin-top: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -97,29 +97,21 @@
   height: 52px;
 }
 
-.blue-card {
+/* .blue-card {
   height: 213px;
   width: 355px;
   background: linear-gradient(109.06deg, #5bb5a2 -10.89%, #53a291 111.82%);
   border-radius: 15px;
   margin: auto;
-}
+} */
 
-.black-card {
-  height: 213px;
-  width: 355px;
-  background: linear-gradient(108.63deg, #485563 -0.82%, #29323c 104.26%);
-  border-radius: 15px;
-  margin: auto;
-}
-
-.gold-card {
+/* .gold-card {
   height: 213px;
   width: 355px;
   background: linear-gradient(110.04deg, #e3c79e 0%, #d6ae7b 99.05%);
   border-radius: 15px;
   margin: auto;
-}
+} */
 
 .card-btn {
   display: flex;

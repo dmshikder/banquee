@@ -1,10 +1,8 @@
 .all-features {
-  margin-top: 160px;
-  height: 1496px;
-  width: 1680px;
+  width: 1200px;
 
-  position: absolute;
-  z-index: 1;
+  margin-left: 20px;
+  margin-top: 30px;
 }
 
 .all-features-title {
@@ -55,7 +53,7 @@
   background-color: #ffffff;
   margin-left: 101.65px;
   margin-top: 73px;
-  position: absolute;
+  position: relative;
 }
 
 .current-statistics {
@@ -135,7 +133,10 @@
 
 .statistics-first-part {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
 }
 
 .cards-title {
@@ -146,43 +147,18 @@
   margin-top: 54px;
 }
 
-.mobile-card1 {
-  height: 186px;
-  width: 310px;
-  background: linear-gradient(108.63deg, #485563 -0.82%, #29323c 104.26%);
-  border-radius: 15px;
-
+.mobile-card-black {
   rotate: 90deg;
-  margin-top: 10px;
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  margin-left: 36px;
 }
 
-.mobile-card2 {
-  height: 186px;
-  width: 310px;
-  background: linear-gradient(109.06deg, #5bb5a2 -10.89%, #53a291 111.82%);
-  border-radius: 15px;
+.mobile-card-blue {
+  rotate: 90deg;
   margin-top: -29px;
-  rotate: 90deg;
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
-.mobile-card3 {
-  height: 186px;
-  width: 310px;
-  background: linear-gradient(110.04deg, #e3c79e 0%, #d6ae7b 99.05%);
-  border-radius: 15px;
+.mobile-card-gold {
   rotate: 90deg;
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .mobile-cards {
@@ -214,14 +190,9 @@
   align-items: flex-start;
   padding: 0px;
   gap: 32px;
-
   width: 1680px;
-  /* height: 950px; */
-  z-index: 1;
   position: absolute;
   padding-top: 60px;
-  background-color: rgb(255, 255, 255);
-  margin-left: 240px;
 }
 
 .card-title {

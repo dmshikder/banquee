@@ -45,8 +45,8 @@ const Footer = () => {
   <div className="md:place-self-center md:justify-self-end">
     <div className="grid grid-flow-col gap-4"> 
       <a className='footer-part2' href="#">Datenschutz</a>
-      <a className='footer-part2' href="#">Impressum</a>
-    </div>
+      <a className='footer-part2' href="#">Impressum</a> 
+    </div>    
   </div>
 </footer>
 </footer>

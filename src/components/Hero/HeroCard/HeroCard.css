@@ -1,25 +1,26 @@
 .hero-cards {
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
   padding: 0;
+  gap: 66px;
+  overflow: hidden;
+  background-color: #e8f2ee;
+  position: absolute;
+  width: 1764px;
+  height: 692px;
+  left: calc(50% - 1910px / 2);
+
+  top: 65px;
 }
 
 .hero-card-1,
 .hero-card-5 {
-  height: 300px;
-  width: 500px;
-
   background: linear-gradient(110.04deg, #e3c79e 0%, #d6ae7b 99.05%);
   border-radius: 15px;
-  margin-top: 730px;
+  margin-top: 8px;
   rotate: 90deg;
-}
-
-.hero-card-1 {
-  margin-left: -290px;
-}
-.hero-card-5 {
-  margin-right: -380px;
 }
 
 .hero-card-2,
@@ -28,7 +29,7 @@
   width: 500px;
   background: linear-gradient(108.63deg, #485563 -0.82%, #29323c 104.26%);
   border-radius: 15px;
-  margin-top: 634px;
+  /* margin-top: 634px; */
   rotate: 90deg;
 }
 
@@ -37,7 +38,7 @@
   width: 500px;
   background: linear-gradient(109.06deg, #5bb5a2 -10.89%, #53a291 111.82%);
   border-radius: 15px;
-  margin-top: 538px;
+  /* margin-top: 538px; */
   rotate: 90deg;
 }
 
@@ -58,26 +59,6 @@
   color: #fafafa;
   padding: 40px;
   margin-left: 60px;
-}
-
-.tt {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  justify-items: center;
-}
-
-.card-bottom {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding-bottom: 28.06px;
-}
-
-.card-bottom-gray {
-  color: #ffffff;
-  opacity: 0.8;
-  font-weight: 500;
-  font-size: 12px;
 }
 
 .card-bottom-visa {

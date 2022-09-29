@@ -7,7 +7,7 @@ import Hero from '../Hero/Hero';
 import './Home.css';
 const Home = () => {
   return (
-    <div className='home'>
+    <div >
         <Hero/>
         <Features/>
         <hr className='line'/>
