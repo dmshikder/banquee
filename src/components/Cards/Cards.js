@@ -8,7 +8,7 @@ const Cards = () => {
     <div className="flex flex-col items-center">
       <div>
         <p className="mt-40">Account</p>
-        <p className="text-6xl pb-4">Choose your card.</p>
+        <p id="compare-card" className="text-6xl pb-4">Choose your card.</p>
         <p className="text-lg pb-24">
           Senectus et netus et malesuada fames ac turpis. Sagittis vitae et leo
           duis ut diam

@@ -62,8 +62,8 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="gap-8">
-  <a className="text-lg text-silverTree font-bold">Login</a>
-    <a className="bg-silverTree w-32 h-10 text-base text-white pt-2 rounded-md button hover:bg-harp hover:text-mirage">Open Account</a>
+  <a className="text-lg text-silverTree font-bold cursor-pointer">Login</a>
+    <a className="bg-silverTree w-32 h-10 text-base text-white pt-2 rounded-md button hover:bg-harp hover:text-mirage cursor-pointer">Open Account</a>
   </div>
 </div>
   )

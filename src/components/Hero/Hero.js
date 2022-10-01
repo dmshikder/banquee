@@ -20,13 +20,13 @@ const Hero = () => {
 
           <div className="flex flex-row items-center justify-center gap-8">
             <div>
-              <a className="text-white text-sm button bg-silverTree py-4  px-6 rounded-md hover:bg-harp hover:border hover:text-mirage">
+              <a className="text-white text-sm button bg-silverTree py-4  px-6 rounded-md hover:bg-harp hover:border hover:text-mirage cursor-pointer">
                 Open Account
               </a>
             </div>
             <div className="flex flex-row items-center gap-3">
               <div>
-                <a className="text-sm">Compare Cards</a>
+                <a href="#compare-card" className="text-sm">Compare Cards</a>
               </div>
               <div>
                 <ArrowRight />
