@@ -4,13 +4,12 @@ import Cards from '../Cards/Cards';
 import Faq from '../Faq/Faq';
 import Features from '../Features/Features';
 import Hero from '../Hero/Hero';
-import './Home.css';
 const Home = () => {
   return (
     <div >
         <Hero/>
         <Features/>
-        <hr className='line'/>
+        <hr className='border-x-8  border-greenWhite mt-40'/>
         <AllFeatures/>
         <Cards/>
         <Faq/>

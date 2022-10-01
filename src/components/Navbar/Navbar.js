@@ -1,5 +1,4 @@
 import React from 'react';
-import './Navbar.css';
 
 const Navbar = () => {
   return (
@@ -9,7 +8,7 @@ const Navbar = () => {
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </label>
-      <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+      <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-silverTree rounded-box w-52">
         <li><a className='nav-item'>Features</a></li>
         <li tabIndex={0}>
           <a className="justify-between nav-item">
@@ -34,13 +33,13 @@ const Navbar = () => {
         </li>
       </ul>
     </div>
-    <a className="logo">banquee.</a>
+    <a className="text-4xl font-bold text-silverTree">banquee.</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal p-0">
-      <li><a className='nav-item'>Features</a></li>
+      <li><a className='text-base'>Features</a></li>
       <li tabIndex={0}>
-        <a className='nav-item'>
+        <a className='text-base'>
           Compare
           <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
         </a>
@@ -49,9 +48,9 @@ const Navbar = () => {
           <li><a>Compare 2</a></li>
         </ul>
       </li>
-      <li><a className='nav-item'>Support</a></li>
+      <li><a className='text-base'>Support</a></li>
       <li tabIndex={0}>
-        <a className='nav-item'>
+        <a className='text-base'>
           Blog
           <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
         </a>
@@ -62,9 +61,9 @@ const Navbar = () => {
       </li>
     </ul>
   </div>
-  <div className="login-register">
-  <a className="p-2 login">Login</a>
-    <a className="button">Open Account</a>
+  <div className="gap-8">
+  <a className="text-lg text-silverTree font-bold">Login</a>
+    <a className="bg-silverTree w-32 h-10 text-base text-white pt-2 rounded-md button hover:bg-harp hover:text-mirage">Open Account</a>
   </div>
 </div>
   )

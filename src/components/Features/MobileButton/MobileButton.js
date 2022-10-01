@@ -3,12 +3,12 @@ import AccountIcon from "../../SVG/AccountIcon";
 import CardsIcon from "../../SVG/CardsIcon";
 import HomeIcon from "../../SVG/HomeIcon";
 import SavingsIcon from "../../SVG/SavingsIcon";
-import "./MobileButton.css";
+
 
 const MobileButton = () => {
   return (
-    <div className="menu1">
-      <div className="mobile-btn">
+    <div className="flex flex-row items-center justify-evenly">
+      <div className="flex flex-col justify-center items-center">
         <div>
           <HomeIcon />
         </div>
@@ -16,7 +16,7 @@ const MobileButton = () => {
           <p>Home</p>
         </div>
       </div>
-      <div className="mobile-btn">
+      <div className="flex flex-col justify-center items-center">
         <div>
           <SavingsIcon />
         </div>
@@ -24,7 +24,7 @@ const MobileButton = () => {
           <p>Savings</p>
         </div>
       </div>
-      <div className="mobile-btn">
+      <div className="flex flex-col justify-center items-center">
         <div>
           <CardsIcon />
         </div>
@@ -32,7 +32,7 @@ const MobileButton = () => {
           <p>Cards</p>
         </div>
       </div>
-      <div className="mobile-btn">
+      <div className="flex flex-col justify-center items-center">
         <div>
           <AccountIcon></AccountIcon>
         </div>
